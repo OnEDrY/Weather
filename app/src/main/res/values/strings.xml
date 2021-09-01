@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="Logo_App">Погода в городе</string>
+    <string name="Your_City">Укажите город</string>
+    <string name="Return">Найти</string>
+    <string name="Wait">Получение данных</string>
+    <string name="Error">Города не существует или указан некорректно</string>
+    <string name="Login">Войти</string>
+
+</resources>
