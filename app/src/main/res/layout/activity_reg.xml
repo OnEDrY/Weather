@@ -8,18 +8,32 @@
     tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/TitleAuth"
+        android:id="@+id/TitleReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="200dp"
         android:fontFamily="@font/ledger"
-        android:text="@string/TitleAuth"
+        android:text="@string/TitleReg"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="25sp" />
 
     <EditText
-        android:id="@+id/AuthEmail"
+        android:id="@+id/RegName"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="75sp"
+        android:layout_marginTop="265dp"
+        android:background="@color/backgroundForInput"
+        android:ems="50"
+        android:fontFamily="@font/ledger"
+        android:hint="@string/Name"
+        android:textAlignment="center"
+        android:textColorHint="@color/HintColour" />
+
+    <EditText
+        android:id="@+id/RegEmail"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
 
@@ -33,10 +47,10 @@
         android:textColorHint="@color/HintColour" />
 
     <EditText
-        android:id="@+id/AuthPassword"
+        android:id="@+id/RegPassword"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/AuthEmail"
+        android:layout_below="@id/RegEmail"
         android:layout_marginStart="75sp"
         android:layout_marginTop="10dp"
         android:background="@color/backgroundForInput"
@@ -48,34 +62,31 @@
 
 
     <Button
-        android:id="@+id/AuthHome"
-        android:layout_width="300dp"
+        android:id="@+id/RegHome"
+        android:layout_width="190dp"
         android:layout_height="50dp"
-        android:layout_marginStart="200dp"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/ledger"
         android:hint="@string/Home" />
-
     <Button
-        android:id="@+id/AuthReg"
-        android:layout_width="120dp"
+        android:id="@+id/RegBack"
+        android:layout_width="190dp"
         android:layout_height="50dp"
-        android:layout_below="@id/AuthPassword"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/ledger"
-        android:hint="@string/Reg"
-        android:textSize="11dp" />
+        android:hint="@string/Back" />
 
     <Button
-        android:id="@+id/AuthAuth"
+        android:id="@+id/RegReg"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_below="@id/AuthPassword"
+        android:layout_below="@id/RegPassword"
         android:layout_marginStart="75dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/ledger"
-        android:hint="@string/Auth"
-        android:textSize="11dp" />
+        android:hint="@string/Reg"
+        android:textSize="15dp" />
 
 </RelativeLayout>
